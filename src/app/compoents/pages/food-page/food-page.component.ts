@@ -11,7 +11,7 @@ import { food } from 'src/app/shared/models/food';
 })
 export class FoodPageComponent implements OnInit {
   food!: food;
-  params!: any;
+  
   constructor(activatedRoute:ActivatedRoute, foodService:FoodService, private cartService:CartService, private router: Router) {
     activatedRoute.params.subscribe((params) => {
       if(params.id)
