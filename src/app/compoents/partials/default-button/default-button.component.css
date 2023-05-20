@@ -13,6 +13,7 @@
     width: 100%;
     margin: 1rem auto;
     opacity: 0.8;
+    color: tomato;
   }
   
   button:hover{
